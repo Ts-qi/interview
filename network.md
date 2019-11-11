@@ -2,9 +2,9 @@
 
 ######  
 
-##### HTTP 与 HTTPS
+### HTTP 与 HTTPS
 
-######  1 概念：
+####  1 概念：
 
 ###### 		http:(Hypertext Transfer Protocol Vertion) 超文本传输协议，进行网络连接传输文本信息
 
@@ -18,7 +18,7 @@
 
 ​		SSL使用40 位关键字作为RC4流加密算法；（RC4流 ？？？  ？？？）；
 
-###### 2 HTTPS 作用
+#### 2 HTTPS 作用
 
 ​			1 内容加密，建立一个信息安全通道，来保证数据传输的安全；
 
@@ -26,7 +26,7 @@
 
 ​			3 数据完整性， 防止内容被第三方冒充或篡改；
 
-###### 3 HTTPS 和 HTTP 的区别；
+#### 3 HTTPS 和 HTTP 的区别；
 
 ​			1 HTTPS 需要到 CA申请证书（缴费）；
 
@@ -36,7 +36,7 @@
 
 ​			4 HTTP连接很简单，是无状态的；HTTPs 协议是由 SSL+HTTP 协议构建的可进行加密传输，身份认证的网络协议，比 HTTP协议安全；
 
-###### 4 HTTP 协议的传输特点；
+#### 4 HTTP 协议的传输特点；
 
 ​		 	优点：1 基于应用级的接口使用方便；2 要求不高，容错性强；
 
@@ -46,29 +46,29 @@
 
 ​					3 数据交互安全性差；
 
-#####  5 OSI七层网络模型；
+####  5 OSI七层网络模型；
 
 ![img](https://upload-images.jianshu.io/upload_images/6186031-106bc19607c54927.png?imageMogr2/auto-orient/strip|imageView2/2/w/960/format/webp)
 
 
 
-#####  6 TCP/IP--传输控制协议/网络协议- 四层；
+####  6 TCP/IP--传输控制协议/网络协议- 四层；
 
 ![image-20191023185220735](/Users/tangqi/Library/Application Support/typora-user-images/image-20191023185220735.png)
 
-#####  7 TCP/IP 与 OSI网络模型的对应关系；
+####  7 TCP/IP 与 OSI网络模型的对应关系；
 
 ![这里写图片描述](https://img-blog.csdn.net/20180825195520935?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjg2Nzk3Mg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 
 
 
-### 8 TCP 连接为什么是 3 次握手？而不是 2 次或者 4 次？
+#### 8 TCP 连接为什么是 3 次握手？而不是 2 次或者 4 次？
 
 ​			1  TCP 概念： 传送控制协议（ Transmission Control Protocol）
 
 ​			如果是 2 次握手建立连接，假设 有这样的一种场景，客户端发送了第一个请求连接并且没有丢失，只是因为网络节点中滞留的时间太长了，由于 TCP的客户端迟迟没有收到确认的报文，以为服务器没有收到，此时重新像服务器发送报文，此后客户端和服务端经过两次握手完成连接，传输数据，然后关闭连接。此时此前滞留的那一次请求连接，网络通畅到达了服务器，这个报文是失效的，但是两次握手的机制将会让客户端和服务器再次建立连接可能出现 4 次握手，5 次握手，浪费很多不必要的资源，造成不必要的错误；
 
-###  9 如何复用TCP 连接？
+####  9 如何复用TCP 连接？
 
 > 
 
