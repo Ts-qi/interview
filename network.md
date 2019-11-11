@@ -50,6 +50,8 @@
 
 ![img](https://upload-images.jianshu.io/upload_images/6186031-106bc19607c54927.png?imageMogr2/auto-orient/strip|imageView2/2/w/960/format/webp)
 
+https://www.jianshu.com/p/534a2b1a9296
+
 
 
 ####  6 TCP/IP--传输控制协议/网络协议- 四层；
