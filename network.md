@@ -50,7 +50,7 @@
 
 ![img](https://upload-images.jianshu.io/upload_images/6186031-106bc19607c54927.png?imageMogr2/auto-orient/strip|imageView2/2/w/960/format/webp)
 
-  ![image-20191111161131758](/Users/tangqi/Library/Application Support/typora-user-images/image-20191111161131758.png)
+
 
 #####  6 TCP/IP--传输控制协议/网络协议- 四层；
 
