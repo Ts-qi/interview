@@ -58,7 +58,7 @@
 
 #####  7 TCP/IP 与 OSI网络模型的对应关系；
 
-![image-20191023185340510](/Users/tangqi/Library/Application Support/typora-user-images/image-20191023185340510.png)
+https://img-blog.csdn.net/20180825195520935?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjg2Nzk3Mg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70
 
 
 
