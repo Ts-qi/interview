@@ -12,11 +12,11 @@
 
 ​	a 	HTTPS是 HTTP over SSL/TLS，HTTP是应用层协议，TCP是传输层协议，在应用层和传输层之间，增加了一个安全套接层SSL/TLS：
 
-​		SSL (Secure Socket Layer，安全套接字层)；
+​		* SSL (Secure Socket Layer，安全套接字层)；
 
-​		TLS (Transport Layer Security，传输层安全协议)；
+​		* TLS (Transport Layer Security，传输层安全协议)；
 
-​		SSL使用40 位关键字作为RC4流加密算法；（RC4流 ？？？  ？？？）；
+​		* SSL使用40 位关键字作为RC4流加密算法；（RC4流 ？？？  ？？？）；
 
 #### 2 HTTPS 作用
 
